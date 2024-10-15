@@ -2,26 +2,112 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.css-24ac9g-MuiButtonBase-root-MuiTab-root {
+  min-height: 33px;
+  padding: 8px 14px;
+  gap: 8px;
+  color: #a3a3a3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  text-transform: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.css-24ac9g-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #a3a3a3;
+  background-color: #404040;
+  border-radius: 36px;
+  border: none;
+}
+
+.css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+  min-width: 140px;
+  min-height: 36px;
+  gap: 10px;
+}
+
+.css-19kzrtu {
+  padding: 0;
+  gap: 24px;
+}
+
+.css-1p0llrw-MuiTableRow-root {
+  padding: 0;
+}
+
+.css-1stgymw-MuiTableCell-root {
+  padding: 0;
+}
+
+.css-cg2890-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fafafa;
+  background-color: #262626;
+}
+
+.css-1dn2j7j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fafafa;
+  background-color: #262626;
+}
+
+.css-1sj2jcg-MuiTabs-indicator {
+  background-color: transparent;
+}
+
+.css-12ld6eb-MuiTabs-indicator {
+  background-color: transparent;
+}
+
+.css-1g5ueh6-MuiTabs-root {
+  min-height: 212px;
+}
+.css-qkhvny-MuiTabs-flexContainer {
+  min-height: 212px;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  gap: 7px;
+}
+
+.css-1h7xy6j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fafafa;
+  background-color: #262626;
+}
+
+.css-40q4pa-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fafafa;
+  background-color: #262626;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  min-width: 100%;
+  gap: 4.5px;
+}
+
+.css-vzcncw-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #a3a3a3;
+  background-color: #404040;
+  border-radius: 36px;
+  border: none;
+}
+
+.css-vzcncw-MuiButtonBase-root-MuiTab-root {
+  min-height: 33px;
+  padding: 8px 14px;
+  gap: 8px;
+  color: #a3a3a3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  text-transform: none;
 }
